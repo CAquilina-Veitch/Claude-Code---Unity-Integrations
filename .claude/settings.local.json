@@ -4,7 +4,11 @@
       "Bash(mkdir:*)",
       "Bash(cp:*)",
       "Bash(mv:*)",
-      "Bash(./Assets/ClaudeCodeIntegration/LogReader/UnityConsoleReader.exe)"
+      "Bash(./Assets/ClaudeCodeIntegration/LogReader/UnityConsoleReader.exe)",
+      "Bash(chmod:*)",
+      "Bash(source:*)",
+      "Bash(unity_list_objects)",
+      "Bash(unity_get_scene_info)"
     ],
     "deny": []
   }

@@ -1,0 +1,35 @@
+# Unity Claude Code Prompt Integration
+
+This integration allows you to prompt Claude Code directly from Unity's editor to modify GameObjects.
+
+## Features
+- Right-click any GameObject → "Ask Claude Code"
+- Dedicated editor window: Window → Claude Code Prompt
+- Automatic context generation (components, transform, hierarchy)
+- Direct Claude Code CLI integration
+
+## Usage
+1. **Right-click method**: Select GameObject → Right-click → "Ask Claude Code"
+2. **Window method**: Window → Claude Code Prompt → Select target object
+3. Type your request (e.g., "Make this object follow the player smoothly")
+4. Click "Ask Claude Code" to process
+
+## Examples
+- "Add a health system to this enemy"
+- "Make this door open when player approaches" 
+- "Add smooth rotation to this platform"
+- "Create a pickup effect for this item"
+
+## Claude Code Integration Instructions
+
+```
+## Unity GameObject Prompter
+
+This project includes a Unity Editor integration that allows prompting Claude Code directly from GameObjects.
+
+Access via:
+- Right-click GameObject → "Ask Claude Code"
+- Window → Claude Code Prompt
+
+The integration automatically provides context about the selected GameObject (components, transform, hierarchy) and calls Claude Code CLI to process requests like "make this object follow the player".
+```
