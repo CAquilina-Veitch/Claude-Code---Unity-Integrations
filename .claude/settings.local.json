@@ -8,7 +8,9 @@
       "Bash(chmod:*)",
       "Bash(source:*)",
       "Bash(unity_list_objects)",
-      "Bash(unity_get_scene_info)"
+      "Bash(unity_get_scene_info)",
+      "Bash(show_worker_help)",
+      "Bash(ls:*)"
     ],
     "deny": []
   }

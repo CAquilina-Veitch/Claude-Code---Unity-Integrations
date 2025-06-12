@@ -28,3 +28,29 @@ Available commands:
 - `unity_get_scene_info` - Get detailed scene info
 
 Always use `source unity_commands.sh && [command]` format to ensure functions are loaded.
+
+## Multi-Worker System
+
+For complex projects, you can spawn multiple Claude Code workers:
+
+```bash
+source spawn_claude_workers.sh
+
+# Spawn specialized workers
+spawn_script_worker "PlayerController" "WASD movement, jumping, collision detection"
+spawn_ui_worker "Create main menu with start/quit buttons"
+spawn_scene_worker "Set up lighting and camera positioning"
+
+# Or handle a complete complex project
+handle_complex_project "Build a 3D platformer with collectibles and enemies"
+```
+
+Available worker types:
+- `spawn_coordinator <goal>` - Project manager that spawns other workers
+- `spawn_script_worker <name> <requirements>` - Script development specialist
+- `spawn_ui_worker <task>` - UI development specialist  
+- `spawn_scene_worker <task>` - Scene setup specialist
+- `spawn_animation_worker <task>` - Animation/movement specialist
+- `spawn_test_worker <task>` - Testing/debugging specialist
+
+Each worker gets its own terminal window with full Unity command access.
