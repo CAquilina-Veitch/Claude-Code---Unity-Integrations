@@ -1,0 +1,31 @@
+# Unity Log Reader Integration
+
+This folder contains a Unity console log reader tool that allows Claude Code to check Unity console errors and warnings.
+
+## What's Included
+- `UnityConsoleReader.exe` - Main executable
+- `UnityConsoleReader.dll` - Required library
+- `UnityConsoleReader.runtimeconfig.json` - Runtime configuration
+
+## Usage
+The tool can be run with: `./Assets/ClaudeCodeIntegration/LogReader/UnityConsoleReader.exe`
+
+It will:
+1. Force Unity recompilation to catch any new errors
+2. Read the Unity Editor.log file
+3. Display recent errors and warnings from the console
+
+## Claude Code Integration Instructions
+
+This is a .MDI (Markdown Instruction) file. Add the content below to your project's CLAUDE.md file so Claude Code knows it can check Unity logs:
+
+```
+## Unity Log Reader
+
+This project includes a Unity log reader tool at `Assets/ClaudeCodeIntegration/LogReader/UnityConsoleReader.exe`.
+
+You can check Unity console errors and warnings by running:
+`./Assets/ClaudeCodeIntegration/LogReader/UnityConsoleReader.exe`
+
+This tool will force recompilation and show recent Unity console errors/warnings.
+```
