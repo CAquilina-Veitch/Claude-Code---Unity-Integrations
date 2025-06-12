@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a0795e7-2d98-4c62-9dc1-934729d27481" name="Changes" comment="" />
+    <list default="true" id="4a0795e7-2d98-4c62-9dc1-934729d27481" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TowerDefenseUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TowerDefenseUI.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/SpinObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
@@ -25,7 +30,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Unity-Error-logs-reader",
+    "git-widget-placeholder": "Unity-ClaudeCodeWindow",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749699171508</updated>
-      <workItem from="1749699172907" duration="955000" />
+      <workItem from="1749699172907" duration="11483000" />
     </task>
     <servers />
   </component>
